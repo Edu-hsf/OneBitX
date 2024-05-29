@@ -1,0 +1,129 @@
+body .section {
+  height: 100vh;
+}
+body .section-1 {
+  background-image: url("../images/humanFlight/01.jpg");
+  background-position: center;
+  background-size: cover;
+}
+body .section-1 .container {
+  height: 100%;
+  padding-bottom: 130px;
+}
+body .section-1 .container .navbar {
+  font-size: 12px;
+}
+body .section-1 .container .navbar .logo {
+  width: 240px;
+}
+body .section-1 .container .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+body .section-1 .container .content h1 {
+  font-size: 120px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+body .section-1 .container .content h2 {
+  font-size: 30px;
+}
+body .section-1 .container .content .arrow {
+  margin-top: 50px;
+}
+body .section-1 .container .content .arrow img {
+  width: 130px;
+}
+body .section-2 {
+  background-image: url("../images/humanFlight/02.jpg");
+  background-position: center;
+  background-size: cover;
+}
+body .section-2 .container-fluid {
+  display: flex;
+  justify-content: end;
+  padding-top: 280px;
+}
+body .section-2 .container-fluid .content {
+  color: #fff;
+  padding-right: 310px;
+}
+body .section-2 .container-fluid .content h2 {
+  font-size: 60px;
+}
+body .section-2 .container-fluid .content .btn {
+  width: 173px;
+  height: 60px;
+  margin-top: 35px;
+}
+body .section-3 {
+  background-image: url("../images/humanFlight/03.jpg");
+  background-position: center;
+  background-size: cover;
+}
+body .section-3 .container-fluid {
+  display: flex;
+  justify-content: start;
+  padding-top: 300px;
+}
+body .section-3 .container-fluid .content {
+  padding-left: 100px;
+  color: #fff;
+}
+body .section-3 .container-fluid .content h2 {
+  font-size: 60px;
+}
+body .section-3 .container-fluid .content .btn {
+  width: 173px;
+  height: 60px;
+  margin-top: 35px;
+}
+body .section-4 {
+  background-image: url("../images/humanFlight/04.jpg");
+  background-position: center;
+  background-size: cover;
+}
+body .section-4 .container-fluid {
+  display: flex;
+  justify-content: end;
+  padding-top: 280px;
+}
+body .section-4 .container-fluid .content {
+  color: #fff;
+  padding-right: 460px;
+}
+body .section-4 .container-fluid .content h2 {
+  font-size: 60px;
+}
+body .section-4 .container-fluid .content .btn {
+  width: 173px;
+  height: 60px;
+  margin-top: 35px;
+}
+body .section-5 {
+  background-image: url("../images/humanFlight/05.jpg");
+  background-position: center;
+  background-size: cover;
+}
+body .section-5 .container-fluid {
+  display: flex;
+  justify-content: start;
+  padding-top: 300px;
+}
+body .section-5 .container-fluid .content {
+  padding-left: 100px;
+  color: #fff;
+}
+body .section-5 .container-fluid .content h2 {
+  font-size: 60px;
+}
+body .section-5 .container-fluid .content .btn {
+  width: 173px;
+  height: 60px;
+  margin-top: 35px;
+}
+
+/*# sourceMappingURL=humanflight.css.map */

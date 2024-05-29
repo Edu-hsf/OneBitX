@@ -1,0 +1,17 @@
+{
+  "name": "nova-pasta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass-index": "sass --watch src/styles/index.scss:public/styles/index.css",
+    "sass-falcon9": "sass --watch src/styles/falcon9.scss:public/styles/falcon9.css",
+    "sass-human": "sass --watch src/styles/humanflight.scss:public/styles/humanflight.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}

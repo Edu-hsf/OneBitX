@@ -1,0 +1,66 @@
+body .content h2 {
+  font-weight: 500;
+  font-size: 20px;
+}
+body .section {
+  height: 100vh;
+}
+body .section .container .content {
+  width: 550px;
+  padding-top: 200px;
+}
+body .section .container .content .btn {
+  width: 160px;
+  height: 60px;
+  border-radius: 4px;
+  border: solid 2px;
+}
+body .section-1 {
+  background-image: url("../images/home/01.jpg");
+  background-position: top;
+}
+body .section-1 .container .navbar {
+  font-size: 12px;
+}
+body .section-1 .container .navbar .logo {
+  width: 240px;
+}
+body .section-2 {
+  background-image: url("../images/home/02.jpg");
+  background-size: cover;
+  background-position: top;
+}
+body .section-3 {
+  background-image: url("../images/home/03.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+body .section-4 {
+  background-image: url("../images/home/04.jpg");
+  background-position: top;
+}
+
+@media screen and (max-width: 750px) {
+  body .section .container .content {
+    padding-top: 120px;
+  }
+}
+@media screen and (max-width: 600px) {
+  body .section .container .content {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 405px) {
+  body .section-1 .container .navbar .logo {
+    width: 180px;
+  }
+}
+@media screen and (max-width: 575px) {
+  body .section {
+    padding-left: 15px;
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
