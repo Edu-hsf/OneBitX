@@ -1,6 +1,20 @@
 body .section {
   height: 100vh;
 }
+body .section .content-mission h1 {
+  font-size: 20px;
+}
+body .section .content-mission h2 {
+  font-size: 60px;
+}
+body .section .content-mission h3 {
+  font-size: 20px;
+}
+body .section .content-mission .btn {
+  width: 173px;
+  height: 60px;
+  margin-top: 35px;
+}
 body .section-1 {
   background-image: url("../images/humanFlight/01.jpg");
   background-position: center;
@@ -49,15 +63,7 @@ body .section-2 .container-fluid {
 }
 body .section-2 .container-fluid .content {
   color: #fff;
-  padding-right: 310px;
-}
-body .section-2 .container-fluid .content h2 {
-  font-size: 60px;
-}
-body .section-2 .container-fluid .content .btn {
-  width: 173px;
-  height: 60px;
-  margin-top: 35px;
+  padding-right: 10%;
 }
 body .section-3 {
   background-image: url("../images/humanFlight/03.jpg");
@@ -70,16 +76,8 @@ body .section-3 .container-fluid {
   padding-top: 300px;
 }
 body .section-3 .container-fluid .content {
-  padding-left: 100px;
+  padding-left: 10%;
   color: #fff;
-}
-body .section-3 .container-fluid .content h2 {
-  font-size: 60px;
-}
-body .section-3 .container-fluid .content .btn {
-  width: 173px;
-  height: 60px;
-  margin-top: 35px;
 }
 body .section-4 {
   background-image: url("../images/humanFlight/04.jpg");
@@ -93,15 +91,7 @@ body .section-4 .container-fluid {
 }
 body .section-4 .container-fluid .content {
   color: #fff;
-  padding-right: 460px;
-}
-body .section-4 .container-fluid .content h2 {
-  font-size: 60px;
-}
-body .section-4 .container-fluid .content .btn {
-  width: 173px;
-  height: 60px;
-  margin-top: 35px;
+  padding-right: 20%;
 }
 body .section-5 {
   background-image: url("../images/humanFlight/05.jpg");
@@ -114,16 +104,138 @@ body .section-5 .container-fluid {
   padding-top: 300px;
 }
 body .section-5 .container-fluid .content {
-  padding-left: 100px;
+  padding-left: 10%;
   color: #fff;
 }
-body .section-5 .container-fluid .content h2 {
-  font-size: 60px;
+
+@media screen and (max-width: 1400px) {
+  body .section-1 .container .content h1 {
+    font-size: 80px;
+    margin-bottom: 30px;
+  }
+  body .section-1 .container .content h2 {
+    font-size: 20px;
+  }
+  body .section-1 .container .content .arrow {
+    margin-top: 50px;
+  }
+  body .section-1 .container .content .arrow img {
+    width: 100px;
+  }
+  body .section-2 {
+    background-position: left;
+  }
+  body .section-2 .container-fluid .content {
+    padding-left: 20px;
+  }
+  body .section-3 {
+    background-position: right;
+  }
+  body .section-3 .container-fluid .content {
+    padding-left: 20px;
+  }
+  body .section-4 {
+    background-position: left;
+  }
+  body .section-4 .container-fluid {
+    padding-left: 20px;
+  }
+  body .section-4 .container-fluid .content {
+    padding-left: 20px;
+  }
+  body .section-5 {
+    background-image: url("../images/humanFlight/05.jpg");
+    background-position: right;
+    background-size: cover;
+  }
+  body .section-5 .container-fluid .content {
+    padding-left: 20px;
+  }
 }
-body .section-5 .container-fluid .content .btn {
-  width: 173px;
-  height: 60px;
-  margin-top: 35px;
+@media screen and (max-width: 1000px) {
+  body .section-1 .container .content h1 {
+    font-size: 60px;
+    margin-bottom: 30px;
+  }
+  body .section-1 .container .content h2 {
+    font-size: 18px;
+  }
+  body .section-1 .container .content .arrow {
+    margin-top: 50px;
+  }
+  body .section-1 .container .content .arrow img {
+    width: 80px;
+  }
+}
+@media screen and (max-width: 770px) {
+  body .section-1 .container .content h1 {
+    font-size: 45px;
+    margin-bottom: 30px;
+  }
+  body .section-1 .container .content h2 {
+    font-size: 16px;
+  }
+  body .section-1 .container .content .arrow {
+    margin-top: 50px;
+  }
+  body .section-1 .container .content .arrow img {
+    width: 80px;
+  }
+}
+@media screen and (max-width: 600px) {
+  body .section .content-mission h2 {
+    font-size: 40px;
+  }
+  body .section .content-mission h3 {
+    font-size: 15px;
+  }
+  body .section .content-mission .btn {
+    width: 160px;
+    height: 50px;
+    margin-top: 35px;
+  }
+  body .section-2 {
+    background-image: url("../images/humanFlight/02.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  body .section-2 .container-fluid {
+    justify-content: start;
+  }
+  body .section-2 .container-fluid .content {
+    color: #fff;
+    padding-right: 10%;
+  }
+}
+@media screen and (max-width: 500px) {
+  body .section-1 .container .content h1 {
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+  body .section-1 .container .content h2 {
+    font-size: 14px;
+  }
+  body .section-1 .container .content .arrow {
+    margin-top: 50px;
+  }
+  body .section-1 .container .content .arrow img {
+    width: 70px;
+  }
+}
+@media screen and (max-width: 400px) {
+  body .section-1 .container .content h1 {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  body .section-1 .container .content h2 {
+    font-size: 14px;
+  }
+  body .section-1 .container .content .arrow {
+    margin-top: 50px;
+  }
+  body .section-1 .container .content .arrow img {
+    width: 60px;
+  }
 }
 
 /*# sourceMappingURL=humanflight.css.map */
